@@ -1,4 +1,4 @@
-package com.frontend;
+package com.criptomoedas;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
