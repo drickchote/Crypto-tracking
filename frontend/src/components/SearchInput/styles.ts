@@ -35,4 +35,5 @@ export const ClearIcon = styled.Image`
 export const Input = styled.TextInput`
   font-size: 20px;
   padding-left: 5px;
+  color: #000;
 `;

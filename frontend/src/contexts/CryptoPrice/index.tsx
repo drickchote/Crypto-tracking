@@ -19,6 +19,7 @@ export function CryptoPrice({children}: CryptoPriceProps) {
   let interval = useRef<number>();
 
   useEffect(() => {
+    updateCryptos();
     interval.current = setInterval(updateCryptos, 10000);
   }, []);
 

@@ -26,7 +26,6 @@ export default function SearchInput({inputValue, onChange}: SearchInputProps) {
     <PolymorphicKeyboardAvoidingView>
       <Pressable
         onPress={() => {
-          console.log('pressable 1');
           focus();
         }}>
         <Container>
