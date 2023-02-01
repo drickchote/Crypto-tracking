@@ -1,11 +1,8 @@
 {
   "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
-    "types": [
-      "jest",
-      "cypress",
-      "@testing-library/cypress",
-      "@types/styled-components-react-native"
-    ]
-  }
+    "types": ["jest", "@types/styled-components-react-native"],
+    "isolatedModules": false /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
+  },
+  "exclude": ["node_modules", "babel.config.js", "jest.config.js", "__mocks__"]
 }
